@@ -5,25 +5,28 @@ excerpt: ""
 last_modified_at: 2019-11-11
 toc: true
 ---
-## What it is
+## Hvad det er
 
 [![Running Stitch Butterfly](/assets/images/docs/running-stitch.jpg){: width="200x"}](/assets/images/docs/running-stitch.svg){: title="Download SVG File" .align-left download="running-stitch.svg" }
 
-Running stitch produces a series of small stitches following a line or curve.
+"Running stitch" producerer en serie af små sting, som følger en linje eller en kurve.
 
 ![Running Stitch Detail](/assets/images/docs/running-stitch-detail.jpg)
 
-## How to Create
-Running stitch can be created by setting a **dashed stroke** on a path. Any type of dashes will do the job, and the stroke width is irrelevant.
+## Hvordan bruge running stitch
+Running stitch kan blive dannet ved at vælge en prikket linje på en path. Enhver type af prikket linjer vil kunne bruges og stegens bredde er ikke relevant.
+
 
 ![Running Stitch Dashes](/assets/images/docs/running-stitch-dashes.jpg){: .align-left style="padding: 5px"}
-Select the stroke and go to `Object > Fill and Stroke...` and choose one of the dashed lines in the `Stroke style` tab.
+Vælg linjen og gå til `Object > Fill and Stroke...` 
+Vælg en af de prikkede linjer i `Stroke style` fanen.
 
-Open [`Extensions > Ink/Stitch  > Params`](/docs/params/#stroke-params) to change parameters to your needs.
+Åbne [`Extensions > Ink/Stitch  > Params`](/docs/params/#stroke-params) for at ændre parameterne efter dine behov.
 
-The stitch direction can be influenced by the path direction. If you want to swap the starting and ending point of your running stitch run `Path > Reverse`.
+Den retning, som linjen vil blive syet er afhængig af "path direction". Hvis du ønsker at bytte om på start- og slut-punkterne, så vælg `Path > Reverse`.
 
-**Info:** In order to avoid rounding corners, an extra stitch will be added at the point of any sharp corners.
+**Info:** 
+For at undgå runde hjørner, så vil der blive lagt til en ekstra node (dv. et ekstra sting) i alle skarpe hjørner.
 {: .notice--info style="clear: both;" }
 
 ## Sample Files Including Running Stitch
